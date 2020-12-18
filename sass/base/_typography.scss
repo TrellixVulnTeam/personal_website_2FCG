@@ -1,0 +1,22 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $color-grey-light-2;
+}
+
+.heading-primary {
+  font-size: 5rem;
+  letter-spacing: 1px;
+  position: absolute;
+
+  & > span {
+    display: block;
+  }
+
+  &__name--bs {
+    font-size: 7rem;
+    color: #ff7675;
+    text-shadow: 2px 2px $color-grey-dark-2;
+  }
+}

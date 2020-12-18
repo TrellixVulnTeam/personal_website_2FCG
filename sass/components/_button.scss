@@ -1,0 +1,17 @@
+.nav-btn {
+  text-decoration: none;
+  color: $color-grey-light-1;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s;
+
+  &:not(last-child) {
+    margin-right: 5rem;
+  }
+
+  &:hover,
+  &:active {
+    border-bottom: 2px solid red;
+  }
+}
